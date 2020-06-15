@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BFC26512497B7F500727463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC26502497B7F500727463 /* AppDelegate.swift */; };
+		1BFC26532497B7F500727463 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC26522497B7F500727463 /* SceneDelegate.swift */; };
+		1BFC26552497B7F500727463 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC26542497B7F500727463 /* ViewController.swift */; };
+		1BFC26582497B7F500727463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BFC26562497B7F500727463 /* Main.storyboard */; };
+		1BFC265B2497B7F500727463 /* Lagoon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC26592497B7F500727463 /* Lagoon.xcdatamodeld */; };
+		1BFC265D2497B7F600727463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BFC265C2497B7F600727463 /* Assets.xcassets */; };
+		1BFC26602497B7F600727463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BFC265E2497B7F600727463 /* LaunchScreen.storyboard */; };
+		1BFC266B2497B7F600727463 /* LagoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC266A2497B7F600727463 /* LagoonTests.swift */; };
+		1BFC26762497B7F600727463 /* LagoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC26752497B7F600727463 /* LagoonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BFC26672497B7F600727463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BFC26452497B7F500727463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BFC264C2497B7F500727463;
+			remoteInfo = Lagoon;
+		};
+		1BFC26722497B7F600727463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BFC26452497B7F500727463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BFC264C2497B7F500727463;
+			remoteInfo = Lagoon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BFC264D2497B7F500727463 /* Lagoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lagoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BFC26502497B7F500727463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BFC26522497B7F500727463 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1BFC26542497B7F500727463 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BFC26572497B7F500727463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BFC265A2497B7F500727463 /* Lagoon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lagoon.xcdatamodel; sourceTree = "<group>"; };
+		1BFC265C2497B7F600727463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BFC265F2497B7F600727463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BFC26612497B7F600727463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BFC26662497B7F600727463 /* LagoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LagoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BFC266A2497B7F600727463 /* LagoonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LagoonTests.swift; sourceTree = "<group>"; };
+		1BFC266C2497B7F600727463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BFC26712497B7F600727463 /* LagoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LagoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BFC26752497B7F600727463 /* LagoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LagoonUITests.swift; sourceTree = "<group>"; };
+		1BFC26772497B7F600727463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BFC264A2497B7F500727463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BFC26632497B7F600727463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BFC266E2497B7F600727463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BFC26442497B7F500727463 = {
+			isa = PBXGroup;
+			children = (
+				1BFC264F2497B7F500727463 /* Lagoon */,
+				1BFC26692497B7F600727463 /* LagoonTests */,
+				1BFC26742497B7F600727463 /* LagoonUITests */,
+				1BFC264E2497B7F500727463 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BFC264E2497B7F500727463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BFC264D2497B7F500727463 /* Lagoon.app */,
+				1BFC26662497B7F600727463 /* LagoonTests.xctest */,
+				1BFC26712497B7F600727463 /* LagoonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BFC264F2497B7F500727463 /* Lagoon */ = {
+			isa = PBXGroup;
+			children = (
+				1BFC26502497B7F500727463 /* AppDelegate.swift */,
+				1BFC26522497B7F500727463 /* SceneDelegate.swift */,
+				1BFC26542497B7F500727463 /* ViewController.swift */,
+				1BFC26562497B7F500727463 /* Main.storyboard */,
+				1BFC265C2497B7F600727463 /* Assets.xcassets */,
+				1BFC265E2497B7F600727463 /* LaunchScreen.storyboard */,
+				1BFC26612497B7F600727463 /* Info.plist */,
+				1BFC26592497B7F500727463 /* Lagoon.xcdatamodeld */,
+			);
+			path = Lagoon;
+			sourceTree = "<group>";
+		};
+		1BFC26692497B7F600727463 /* LagoonTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BFC266A2497B7F600727463 /* LagoonTests.swift */,
+				1BFC266C2497B7F600727463 /* Info.plist */,
+			);
+			path = LagoonTests;
+			sourceTree = "<group>";
+		};
+		1BFC26742497B7F600727463 /* LagoonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BFC26752497B7F600727463 /* LagoonUITests.swift */,
+				1BFC26772497B7F600727463 /* Info.plist */,
+			);
+			path = LagoonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BFC264C2497B7F500727463 /* Lagoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BFC267A2497B7F600727463 /* Build configuration list for PBXNativeTarget "Lagoon" */;
+			buildPhases = (
+				1BFC26492497B7F500727463 /* Sources */,
+				1BFC264A2497B7F500727463 /* Frameworks */,
+				1BFC264B2497B7F500727463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lagoon;
+			productName = Lagoon;
+			productReference = 1BFC264D2497B7F500727463 /* Lagoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BFC26652497B7F600727463 /* LagoonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BFC267D2497B7F600727463 /* Build configuration list for PBXNativeTarget "LagoonTests" */;
+			buildPhases = (
+				1BFC26622497B7F600727463 /* Sources */,
+				1BFC26632497B7F600727463 /* Frameworks */,
+				1BFC26642497B7F600727463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BFC26682497B7F600727463 /* PBXTargetDependency */,
+			);
+			name = LagoonTests;
+			productName = LagoonTests;
+			productReference = 1BFC26662497B7F600727463 /* LagoonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BFC26702497B7F600727463 /* LagoonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BFC26802497B7F600727463 /* Build configuration list for PBXNativeTarget "LagoonUITests" */;
+			buildPhases = (
+				1BFC266D2497B7F600727463 /* Sources */,
+				1BFC266E2497B7F600727463 /* Frameworks */,
+				1BFC266F2497B7F600727463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BFC26732497B7F600727463 /* PBXTargetDependency */,
+			);
+			name = LagoonUITests;
+			productName = LagoonUITests;
+			productReference = 1BFC26712497B7F600727463 /* LagoonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BFC26452497B7F500727463 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Seungyeon Lee";
+				TargetAttributes = {
+					1BFC264C2497B7F500727463 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					1BFC26652497B7F600727463 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 1BFC264C2497B7F500727463;
+					};
+					1BFC26702497B7F600727463 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 1BFC264C2497B7F500727463;
+					};
+				};
+			};
+			buildConfigurationList = 1BFC26482497B7F500727463 /* Build configuration list for PBXProject "Lagoon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BFC26442497B7F500727463;
+			productRefGroup = 1BFC264E2497B7F500727463 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BFC264C2497B7F500727463 /* Lagoon */,
+				1BFC26652497B7F600727463 /* LagoonTests */,
+				1BFC26702497B7F600727463 /* LagoonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BFC264B2497B7F500727463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BFC26602497B7F600727463 /* LaunchScreen.storyboard in Resources */,
+				1BFC265D2497B7F600727463 /* Assets.xcassets in Resources */,
+				1BFC26582497B7F500727463 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BFC26642497B7F600727463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BFC266F2497B7F600727463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BFC26492497B7F500727463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BFC26552497B7F500727463 /* ViewController.swift in Sources */,
+				1BFC26512497B7F500727463 /* AppDelegate.swift in Sources */,
+				1BFC26532497B7F500727463 /* SceneDelegate.swift in Sources */,
+				1BFC265B2497B7F500727463 /* Lagoon.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BFC26622497B7F600727463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BFC266B2497B7F600727463 /* LagoonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BFC266D2497B7F600727463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BFC26762497B7F600727463 /* LagoonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BFC26682497B7F600727463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BFC264C2497B7F500727463 /* Lagoon */;
+			targetProxy = 1BFC26672497B7F600727463 /* PBXContainerItemProxy */;
+		};
+		1BFC26732497B7F600727463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BFC264C2497B7F500727463 /* Lagoon */;
+			targetProxy = 1BFC26722497B7F600727463 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BFC26562497B7F500727463 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BFC26572497B7F500727463 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BFC265E2497B7F600727463 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BFC265F2497B7F600727463 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BFC26782497B7F600727463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BFC26792497B7F600727463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BFC267B2497B7F600727463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX5JP2585T;
+				INFOPLIST_FILE = Lagoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.sweepty.Lagoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BFC267C2497B7F600727463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX5JP2585T;
+				INFOPLIST_FILE = Lagoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.sweepty.Lagoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1BFC267E2497B7F600727463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX5JP2585T;
+				INFOPLIST_FILE = LagoonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.sweepty.LagoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lagoon.app/Lagoon";
+			};
+			name = Debug;
+		};
+		1BFC267F2497B7F600727463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX5JP2585T;
+				INFOPLIST_FILE = LagoonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.sweepty.LagoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lagoon.app/Lagoon";
+			};
+			name = Release;
+		};
+		1BFC26812497B7F600727463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX5JP2585T;
+				INFOPLIST_FILE = LagoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.sweepty.LagoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lagoon;
+			};
+			name = Debug;
+		};
+		1BFC26822497B7F600727463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX5JP2585T;
+				INFOPLIST_FILE = LagoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.sweepty.LagoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lagoon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BFC26482497B7F500727463 /* Build configuration list for PBXProject "Lagoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BFC26782497B7F600727463 /* Debug */,
+				1BFC26792497B7F600727463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BFC267A2497B7F600727463 /* Build configuration list for PBXNativeTarget "Lagoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BFC267B2497B7F600727463 /* Debug */,
+				1BFC267C2497B7F600727463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BFC267D2497B7F600727463 /* Build configuration list for PBXNativeTarget "LagoonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BFC267E2497B7F600727463 /* Debug */,
+				1BFC267F2497B7F600727463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BFC26802497B7F600727463 /* Build configuration list for PBXNativeTarget "LagoonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BFC26812497B7F600727463 /* Debug */,
+				1BFC26822497B7F600727463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1BFC26592497B7F500727463 /* Lagoon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1BFC265A2497B7F500727463 /* Lagoon.xcdatamodel */,
+			);
+			currentVersion = 1BFC265A2497B7F500727463 /* Lagoon.xcdatamodel */;
+			path = Lagoon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1BFC26452497B7F500727463 /* Project object */;
+}
